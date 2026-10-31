@@ -6,7 +6,8 @@
 
 Pop!_OS 24.04 on COSMIC in soot, smoke and burnt orange: desktop, terminal,
 shell, Firefox, Brave, cursor, wallpapers. A dark rice with one glowing
-colour; brick is kept for what is wrong.
+colour; brick is kept for what is wrong. The dark half of a pair;
+the light half is [cosmic-cinderday-theme](https://github.com/atraxsrc/cosmic-cinderday-theme).
 
 ![Pop!_OS](https://img.shields.io/badge/Pop!_OS-24.04_LTS-cc6528?style=for-the-badge&logo=popos&logoColor=white)
 ![COSMIC](https://img.shields.io/badge/COSMIC-1.0.0-a5a297?style=for-the-badge)
@@ -41,6 +42,14 @@ is at least 4.5:1 on the window background.
 | Muted | ![#8a8575](https://placehold.co/12x12/8a8575/8a8575.png) Secondary text | ![#8A8575](https://placehold.co/12x12/8a8575/8a8575.png) `#8A8575` |
 | Dim | ![#626a78](https://placehold.co/12x12/626a78/626a78.png) Comments | ![#626A78](https://placehold.co/12x12/626a78/626a78.png) `#626A78` |
 | Lines | ![#383735](https://placehold.co/12x12/383735/383735.png) Box lines, inactive | ![#383735](https://placehold.co/12x12/383735/383735.png) `#383735` |
+
+| Role | Cinder | Cinder Day |
+|------|---|---|
+| Background | ![#121212](https://placehold.co/12x12/121212/121212.png) `#121212` | ![#E8E3E3](https://placehold.co/12x12/e8e3e3/e8e3e3.png) `#E8E3E3` |
+| Text | ![#B3ADAD](https://placehold.co/12x12/b3adad/b3adad.png) `#B3ADAD` | ![#1B1A1A](https://placehold.co/12x12/1b1a1a/1b1a1a.png) `#1B1A1A` |
+| Accent | ![#CC6528](https://placehold.co/12x12/cc6528/cc6528.png) `#CC6528` | ![#A33D00](https://placehold.co/12x12/a33d00/a33d00.png) `#A33D00` |
+| Success | ![#A5A297](https://placehold.co/12x12/a5a297/a5a297.png) `#A5A297` | ![#605D52](https://placehold.co/12x12/605d52/605d52.png) `#605D52` |
+| Error | ![#C75E57](https://placehold.co/12x12/c75e57/c75e57.png) `#C75E57` | ![#9E352E](https://placehold.co/12x12/9e352e/9e352e.png) `#9E352E` |
 
 The accent is burnt orange, 4.9:1 on the background and 4.5:1 on a
 container, so it stays the same colour wherever it is text; buttons and
@@ -97,7 +106,7 @@ selections carry it with soot text on top.
 │   ├── cosmic-cinder.tdesktop-theme # built theme, open this in Telegram
 │   └── build.sh                 # rebuilds it, optionally with a wallpaper
 ├── vscode
-│   ├── themes/                  # Cursor / VS Code colour theme, Cosmic Cinder
+│   ├── themes/                  # Cursor / VS Code colour themes, Cinder (dark) + Cinder Day (light)
 │   ├── package.json             # extension manifest
 │   ├── install.sh               # packs a .vsix, installs it with cursor --install-extension
 │   └── README.md
@@ -135,6 +144,11 @@ applets and system UI (maximized apps stay solid), and corners are squared
 Appearance → Style → Frosted glass after import; those sliders survive a theme switch.
 
 Export from Appearance if you tweak backgrounds / tints so you do not lose them.
+
+Pairing tip: import `CinderDay.ron` from
+[cosmic-cinderday-theme](https://github.com/atraxsrc/cosmic-cinderday-theme) into the
+Light slot and COSMIC's Dark / Light toggle flips between the two. Wallpaper,
+Firefox and the shell layer do not follow the toggle; those are per-rice files.
 
 Cinder fills the Dark slot only. Put any other rice's light `.ron` in the Light
 slot and COSMIC's Dark / Light toggle flips between the two. Wallpaper,
@@ -231,9 +245,10 @@ packing a `.crx`: [`brave/README.md`](brave/README.md).
 ## Claude Desktop
 
 For the unofficial [claude-desktop-extra](https://github.com/patrickjaja/claude-desktop-extra)
-Linux build. `claude-desktop/cosmic-cinder.jsonc` carries the Cinder palette in
-both of the file's blocks, so Claude's own Settings → Appearance toggle makes
-no difference. Colours come from `cosmic/Cinder.ron`, contrast-checked (text and
+Linux build. `claude-desktop/cosmic-cinder.jsonc` is one theme with both halves:
+Cinder in dark mode and Cinder Day in light mode, so Claude's own
+Settings → Appearance toggle switches between the two rices.
+Colours come from `cosmic/*.ron`, contrast-checked (text and
 button text 4.5:1, accents 3:1).
 
 ```bash
@@ -243,13 +258,18 @@ button text 4.5:1, accents 3:1).
 It copies the file into `~/.config/Claude/themes.d/`. Then press
 <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> in Claude Desktop and pick **cosmic-cinder**.
 
+The same file ships in [`cosmic-cinderday-theme`](https://github.com/atraxsrc/cosmic-cinderday-theme),
+so installing from either repo gives the same theme.
+
 ---
 
 ## Cursor editor
 
-`vscode/` is a colour theme extension for [Cursor](https://cursor.com):
-**Cosmic Cinder**. It is a plain VS Code theme extension, so VS Code and VSCodium
-take it too. Code is coloured the way Neovim is in the rice; the workbench is
+`vscode/` is a colour theme extension for [Cursor](https://cursor.com) with
+both halves of the pair: **Cosmic Cinder** and **Cosmic Cinder Day**. It is a
+plain VS Code theme extension, so VS Code and VSCodium take it too, and the
+same extension ships in cosmic-cinderday-theme. Code is coloured the way Neovim is
+in the rice; the workbench is
 soot with charcoal menus, hovers and inputs, orange on the active tab, buttons
 and menu highlight, and the integrated terminal uses the COSMIC Terminal
 scheme. Cursor builds its Agent and chat panels from the same theme colours,
@@ -262,8 +282,9 @@ so they follow along.
 It packs `vscode/` into a `.vsix` and installs it with
 `cursor --install-extension`; run it again after editing the theme. Then press
 <kbd>Ctrl</kbd>+<kbd>K</kbd> <kbd>Ctrl</kbd>+<kbd>T</kbd> in Cursor and pick
-**Cosmic Cinder**. The colours and the contrast notes are in
-[`vscode/README.md`](vscode/README.md).
+**Cosmic Cinder**. Three lines in Cursor's `settings.json` make it follow
+COSMIC's Dark / Light toggle between Cinder and Cinder Day; they, the colours and
+the contrast notes are in [`vscode/README.md`](vscode/README.md).
 
 ---
 
@@ -291,6 +312,9 @@ background is plain soot; to put a wallpaper behind the chat instead
 
 Built against Telegram Desktop 7.3.1. Calls, group calls, statistics charts and
 premium badges keep Telegram's own colours.
+
+Telegram has no dark / light pairing, so Cinder Day, the light half, ships its
+own theme.
 
 ---
 
@@ -530,11 +554,16 @@ The GUI steps it cannot do are printed at the end:
 2. COSMIC Terminal → View → Color schemes → Dark tab → Import `cosmic-term/Cinder-term.ron`
 3. Firefox: disable the old rice's add-on, enable this one, restart Firefox
 4. Settings → Wallpaper → a file from `backgrounds/`
-5. Claude Desktop: Ctrl+Shift+T → `cosmic-cinder`
+5. Claude Desktop: Ctrl+Shift+T → `cosmic-cinder`, Appearance → Dark
 6. `exec zsh`, restart Neovim (`:Lazy clean` drops plugins only the old specs used)
 
 Skip 1 and 2 when that slot already holds Cinder. The first time on this rice,
 run [Setup](#setup) once for the fonts, icons and cursor.
+
+**Within the pair** (Cinder ↔ [Cinder Day](https://github.com/atraxsrc/cosmic-cinderday-theme)): the two halves
+sit side by side in COSMIC's Dark and Light slots and share one Claude Desktop
+theme, so after the first time only the Firefox add-on and the wallpaper are
+left by hand. Add `--keep-icons` to keep one icon colour across the pair.
 
 Leaving Cinder is the next rice's `./scripts/switch.sh`. `./cursors/uninstall.sh`
 puts the Pop cursor back.
