@@ -1,0 +1,41 @@
+# 256-colour codes nearest the Cinder palette on soot (lsd 1.0.0 does not accept
+# #hex here): 166 orange, 167 brick, 180 peach, 248 sage, 250 sand,
+# 246 olive, 245 taupe, 241 slate.
+user: 250
+group: 245
+permission:
+  read: 245
+  write: 250
+  exec: 166
+  exec-sticky: 166
+  no-access: 241
+  octal: 246
+  acl: 246
+  context: 246
+date:
+  hour-old: 250
+  day-old: 248
+  older: 241
+size:
+  none: 241
+  small: 248
+  medium: 250
+  large: 167
+inode:
+  valid: 248
+  invalid: 167
+links:
+  valid: 246
+  invalid: 167
+tree-edge: 241
+git-status:
+  default: 241
+  unmodified: 241
+  ignored: 241
+  new-in-index: 248
+  new-in-workdir: 248
+  typechange: 250
+  deleted: 167
+  renamed: 246
+  modified: 180
+  conflicted: 167
