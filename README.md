@@ -430,10 +430,11 @@ Add `--system` to install to `/usr/share/icons` instead, for every user and the
 login screen (asks for sudo); `--user` is the default.
 
 Wallpapers ship in [`backgrounds/`](backgrounds/), named `cinder-<subject>`:
-five renders in the palette's own greys: the driver leaning on
-his car, the coupe from the front and from the side, the spider tank, and
-a canal between tower blocks. The side view (`cinder-coupe-side.jpg`) is
-the one in `assets/wallpaper.png` at 2560x1440.
+five renders in the palette's own greys, the driver leaning on his car, the
+coupe from the front and from the side, the spider tank and a canal between
+tower blocks, plus the anime portrait from the screenshot (`cinder-anime.png`)
+in the same greys and orange. The side view (`cinder-coupe-side.jpg`) is the
+one in `assets/wallpaper.png` at 2560x1440.
 
 Settings → Wallpaper → Add image → a file from `backgrounds/`, or one you downloaded.
 
