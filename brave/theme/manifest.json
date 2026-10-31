@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Cosmic Cinder",
+  "version": "1.0",
+  "description": "Soot theme from the COSMIC Cinder rice: sage icons, one burnt-orange accent.",
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "theme": {
+    "colors": {
+      "frame": [18, 18, 18],
+      "frame_inactive": [18, 18, 18],
+      "frame_incognito": [18, 18, 18],
+      "frame_incognito_inactive": [18, 18, 18],
+      "background_tab": [18, 18, 18],
+      "background_tab_inactive": [18, 18, 18],
+      "background_tab_incognito": [18, 18, 18],
+      "background_tab_incognito_inactive": [18, 18, 18],
+      "toolbar": [26, 26, 30],
+      "tab_text": [204, 101, 40],
+      "tab_background_text": [165, 162, 151],
+      "tab_background_text_inactive": [165, 162, 151],
+      "tab_background_text_incognito": [165, 162, 151],
+      "tab_background_text_incognito_inactive": [165, 162, 151],
+      "bookmark_text": [179, 173, 173],
+      "toolbar_button_icon": [165, 162, 151],
+      "omnibox_background": [42, 42, 48],
+      "omnibox_text": [179, 173, 173],
+      "ntp_background": [18, 18, 18],
+      "ntp_text": [179, 173, 173],
+      "ntp_link": [204, 101, 40]
+    }
+  }
+}

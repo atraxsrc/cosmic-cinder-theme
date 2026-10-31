@@ -1,0 +1,50 @@
+{
+  "manifest_version": 2,
+  "name": "Cosmic Cinder",
+  "version": "1.0",
+  "description": "Soot theme from the COSMIC Cinder rice: sage icons, one burnt-orange accent.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{b86ab901-ed5c-45a8-857a-fa5772e5d831}"
+    }
+  },
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "64": "icons/icon-64.png",
+    "96": "icons/icon-96.png",
+    "128": "icons/icon-128.png"
+  },
+  "theme": {
+    "colors": {
+      "toolbar": "#1A1A1E",
+      "toolbar_text": "#b3adad",
+      "frame": "#121212",
+      "tab_background_text": "#a5a297",
+      "tab_text": "#cc6528",
+      "toolbar_field": "#2a2a30",
+      "toolbar_field_text": "#b3adad",
+      "toolbar_field_border_focus": "#CC6528",
+      "toolbar_field_highlight": "#CC6528",
+      "toolbar_field_highlight_text": "#121212",
+      "tab_line": "#CC6528",
+      "popup": "#1A1A1E",
+      "popup_text": "#b3adad",
+      "button_background_active": "#CC6528",
+      "button_background_hover": "#2a2a30",
+      "frame_inactive": "#121212",
+      "icons_attention": "#CC6528",
+      "icons": "#a5a297",
+      "ntp_background": "#121212",
+      "ntp_text": "#b3adad",
+      "popup_border": "#90947A",
+      "popup_highlight_text": "#121212",
+      "popup_highlight": "#CC6528",
+      "sidebar_border": "#2a2a30",
+      "sidebar_highlight_text": "#121212",
+      "sidebar_highlight": "#CC6528",
+      "sidebar_text": "#b3adad",
+      "tab_loading": "#CC6528"
+    }
+  }
+}
