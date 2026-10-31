@@ -1,0 +1,39 @@
+{
+  "name": "cosmic-cinder-theme",
+  "displayName": "Cosmic Cinder",
+  "description": "Dark colour theme from the COSMIC Cinder rice, syntax as in its Neovim scheme.",
+  "version": "1.0.0",
+  "publisher": "atraxsrc",
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#121212",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atraxsrc/cosmic-cinder-theme"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "cosmic",
+    "cinder",
+    "cursor"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cosmic Cinder",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cosmic-cinder-color-theme.json"
+      }
+    ]
+  }
+}
