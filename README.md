@@ -15,6 +15,7 @@ colour; brick is kept for what is wrong.
 </div>
 
 ---
+![Pop!_OS COSMIC desktop with the Cinder theme](assets/screenshot.png)
 
 ## Palette
 
@@ -107,6 +108,7 @@ selections carry it with soot text on top.
 ├── assets
 │   ├── cursors/                 # cursor preview
 │   ├── cosmic-term/             # scheme previews for cosmic-term/README.md
+│   ├── screenshot.png           # README screenshot
 │   └── wallpaper.png            # the coupe wallpaper at 2560x1440
 ├── backgrounds/                 # wallpapers, cinder-<subject>.jpg/.png (see Icons and wallpaper)
 ├── docs
