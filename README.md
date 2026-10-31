@@ -2,6 +2,8 @@
 
 # COSMIC · Cinder
 
+![Cinder palette](assets/palette.png)
+
 Pop!_OS 24.04 on COSMIC in soot, smoke and burnt orange: desktop, terminal,
 shell, Firefox, Brave, cursor, wallpapers. A dark rice with one glowing
 colour; brick is kept for what is wrong.
@@ -108,6 +110,7 @@ selections carry it with soot text on top.
 ├── assets
 │   ├── cursors/                 # cursor preview
 │   ├── cosmic-term/             # scheme previews for cosmic-term/README.md
+│   ├── palette.png              # the 16 terminal colours, under the title
 │   ├── screenshot.png           # README screenshot
 │   └── wallpaper.png            # the coupe wallpaper at 2560x1440
 ├── backgrounds/                 # wallpapers, cinder-<subject>.jpg/.png (see Icons and wallpaper)
