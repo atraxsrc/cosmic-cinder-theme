@@ -13,6 +13,7 @@ the light half is [cosmic-cinderday-theme](https://github.com/atraxsrc/cosmic-ci
 ![COSMIC](https://img.shields.io/badge/COSMIC-1.0.0-a5a297?style=for-the-badge)
 ![Cinder](https://img.shields.io/badge/Theme-Cinder-121212?style=for-the-badge&labelColor=cc6528)
 ![Firefox](https://img.shields.io/badge/Firefox-Cinder-cc6528?style=for-the-badge&logo=firefox-browser&logoColor=white)
+[![Gallery](https://img.shields.io/badge/Gallery-All_rices-cc6528?style=for-the-badge)](https://atraxsrc.github.io/cosmic-rices/)
 ![License](https://img.shields.io/badge/License-MIT-8a8575?style=for-the-badge)
 
 </div>
