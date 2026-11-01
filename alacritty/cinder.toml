@@ -1,0 +1,80 @@
+# Cinder for Alacritty, part of cosmic-cinder-theme (MIT).
+# Colours follow the COSMIC Terminal scheme (cosmic-term/).
+#
+# Install: ./alacritty/install.sh puts this in ~/.config/alacritty/themes/,
+# then in ~/.config/alacritty/alacritty.toml:
+#   [general]
+#   import = ["~/.config/alacritty/themes/cinder.toml"]
+# (Alacritty 0.13: a top-level `import = [...]` line instead.)
+
+[colors.primary]
+background = "#121212"
+foreground = "#B3ADAD"
+bright_foreground = "#DBD9D3"
+dim_foreground = "#8A8575"
+
+[colors.cursor]
+text = "#121212"
+cursor = "#CC6528"
+
+[colors.vi_mode_cursor]
+text = "#121212"
+cursor = "#E19E74"
+
+[colors.selection]
+text = "CellForeground"
+background = "#2A2A30"
+
+[colors.search.matches]
+foreground = "#121212"
+background = "#C6C4B0"
+
+[colors.search.focused_match]
+foreground = "#121212"
+background = "#CC6528"
+
+[colors.hints.start]
+foreground = "#121212"
+background = "#E19E74"
+
+[colors.hints.end]
+foreground = "#121212"
+background = "#C6C4B0"
+
+[colors.footer_bar]
+foreground = "#B3ADAD"
+background = "#1A1A1E"
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+[colors.normal]
+black   = "#0C0C0C"
+red     = "#C75E57"
+green   = "#A5A297"
+yellow  = "#C6C4B0"
+blue    = "#CC6528"
+magenta = "#E19E74"
+cyan    = "#8A8575"
+white   = "#DBD9D3"
+
+[colors.bright]
+black   = "#383735"
+red     = "#D9776F"
+green   = "#BDBAB0"
+yellow  = "#D5D3C3"
+blue    = "#D97A3F"
+magenta = "#EDB896"
+cyan    = "#90947A"
+white   = "#EEECE6"
+
+[colors.dim]
+black   = "#121212"
+red     = "#954741"
+green   = "#7C7A72"
+yellow  = "#8F8D7E"
+blue    = "#994C1E"
+magenta = "#A97757"
+cyan    = "#68645A"
+white   = "#90947A"
