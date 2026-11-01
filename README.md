@@ -137,7 +137,7 @@ selections carry it with soot text on top.
 │   ├── Cinder.conf              # qt5ct / qt6ct colour scheme
 │   └── install.sh
 ├── starship
-│   ├── starship.toml            # prompt, palette colours, clock on the right
+│   ├── starship.toml            # prompt, palette colours
 │   └── install.sh
 ├── telegram
 │   ├── colors.tdesktop-theme    # Telegram Desktop colour scheme (source)
@@ -522,8 +522,7 @@ kitty and Alacritty have no such switch; include the other file instead.
 `starship/starship.toml` is close to the defaults with the palette declared
 once as `[palettes.cinder]` and used by name: the directory in ![#90947A](https://placehold.co/12x12/90947a/90947a.png) `#90947A`,
 the branch in ![#C6C4B0](https://placehold.co/12x12/c6c4b0/c6c4b0.png) `#C6C4B0`, ![#E19E74](https://placehold.co/12x12/e19e74/e19e74.png) `#E19E74` for a dirty tree, a ![#A5A297](https://placehold.co/12x12/a5a297/a5a297.png) `#A5A297` prompt
-character that turns ![#C75E57](https://placehold.co/12x12/c75e57/c75e57.png) `#C75E57` after a failed command, a dim `HH:MM` clock on
-the right. Modules it does not style keep their defaults, which use the ANSI
+character that turns ![#C75E57](https://placehold.co/12x12/c75e57/c75e57.png) `#C75E57` after a failed command. Modules it does not style keep their defaults, which use the ANSI
 slots the COSMIC Terminal scheme colours. `zsh/cinder.zsh` already runs
 `starship init`. `install.sh` backs up any existing `~/.config/starship.toml`
 to `starship.toml.bak`.
