@@ -43,7 +43,7 @@ flowchart LR
 - [x] `./icons/install.sh` for the **Cosmic-Cinder** icons, `./cosmic/install.sh` for fonts and the terminal look
 - [x] `./zsh/install.sh`, `./lsd/install.sh`, `./fastfetch/install.sh`
 - [x] Cursor: Oxygen-Cinder-Orange
-- [x] Wallpaper: `backgrounds/cinder-coupe-side.jpg`
+- [x] Wallpaper: `backgrounds/cinder-anime.png`
 - [ ] Screenshot for the README
 
 ## The baseline every rice shares
