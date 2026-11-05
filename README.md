@@ -129,6 +129,8 @@ selections carry it with soot text on top.
 │   ├── config.yaml              # theme: custom
 │   ├── colors.yaml              # permission / size / date / git columns
 │   └── install.sh
+├── notesnook
+│   └── cosmic-cinder.json       # Notesnook theme, Cinder (dark)
 ├── nvim                         # Neovim colorscheme, LazyVim spec, RON syntax, install.sh
 ├── obsidian
 │   ├── cosmic-cinder.css        # CSS snippet, Cinder (dark) + Cinder Day (light)
@@ -416,6 +418,22 @@ in ![#C6C4B0](https://placehold.co/12x12/c6c4b0/c6c4b0.png) `#C6C4B0`. The same 
 
 It copies the file into the vault's `.obsidian/snippets/`. Snippets are per
 vault, so run it once per vault.
+
+---
+
+## Notesnook
+
+`notesnook/cosmic-cinder.json` is a [Notesnook](https://notesnook.com/) theme for Cinder,
+built from the same palette as the Obsidian snippet: window, list and sidebar
+backgrounds, text, accent, selection and the error / success colours. A
+Notesnook theme holds one colour scheme, so the Cinder Day half ships as
+`notesnook/cosmic-cinderday.json` in cosmic-cinderday-theme; load both if you switch between
+dark and light.
+
+```text
+Notesnook → Settings → Appearance → Themes → Load from file
+→ pick notesnook/cosmic-cinder.json → Set as default
+```
 
 ---
 
