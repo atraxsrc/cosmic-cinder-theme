@@ -18,6 +18,6 @@ done
 
 cat <<'EOF'
 
-Done. Needs the Maple fonts and Cosmic-Cinder icons (./icons/install.sh) installed, and the Cinder
+Done. Needs the fonts (./fonts/install.sh) and Cosmic-Cinder icons (./icons/install.sh) installed, and the Cinder
 terminal scheme imported, or COSMIC falls back to its defaults.
 EOF
