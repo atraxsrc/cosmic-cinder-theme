@@ -216,7 +216,7 @@ Firefox and the shell layer do not follow the toggle; those are per-rice files.
 | Where | Setting |
 |-------|---------|
 | Fonts | Interface `Maple Mono Normal` Light, monospace `Maple Mono Normal NFM` |
-| Icons | Cosmic-Cinder-Orange |
+| Icons | Cosmic-Cinder-Dark |
 | Windows | Minimize / maximize buttons hidden, theme applied to GNOME apps |
 | Terminal | Maple Mono 15 (weights 500 / bold 800 / dim 300), 77% opacity, no header bar, Cinder |
 
@@ -709,13 +709,13 @@ cp btop/Cinder.theme ~/.config/btop/themes/
 Icons: **Cosmic-Cinder**, the [Kanagawa icons](https://github.com/Fausto-Korpsvart/Kanagawa-GKT-Theme/tree/main/icons/Kanagawa)
 by Fausto Korpsvart recolored to this palette in
 [cosmic-icon-themes](https://github.com/atraxsrc/cosmic-icon-themes). Folders come in
-three colors: **Orange** ![#CC6528](https://placehold.co/12x12/cc6528/cc6528.png) `#CC6528` (default), **Brick** ![#C75E57](https://placehold.co/12x12/c75e57/c75e57.png) `#C75E57` and **Dark** ![#222228](https://placehold.co/12x12/222228/222228.png) `#222228` with orange symbols.
+three colors: **Orange** ![#CC6528](https://placehold.co/12x12/cc6528/cc6528.png) `#CC6528`, **Brick** ![#C75E57](https://placehold.co/12x12/c75e57/c75e57.png) `#C75E57` and **Dark** ![#222228](https://placehold.co/12x12/222228/222228.png) `#222228` (default) with orange symbols.
 
 ![Cosmic-Cinder folder colors](https://raw.githubusercontent.com/atraxsrc/cosmic-icon-themes/main/previews/Cosmic-Cinder.png)
 
 ```bash
-./icons/install.sh                       # Orange folders
-./icons/install.sh --variant Brick  # or Dark
+./icons/install.sh                   # Dark folders
+./icons/install.sh --variant Orange  # or Brick
 ```
 
 It downloads the pack from the latest cosmic-icon-themes release, checks its SHA256,
